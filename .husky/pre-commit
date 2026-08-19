@@ -1,0 +1,10 @@
+set -e
+
+cd sanity-protector-backend
+docker compose up -d
+npm run test:all
+cd ..
+
+cd sanity-protector-frontend
+npm run test
+cd ..

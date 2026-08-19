@@ -27,3 +27,7 @@
 ## Caching
 
 - Vary cache expiry per field/key to avoid cache stampede.
+
+## Configuration
+
+- Server runs on port 8000.

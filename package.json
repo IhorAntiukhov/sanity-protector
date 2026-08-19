@@ -1,0 +1,11 @@
+{
+  "name": "sanity-protector",
+  "private": true,
+  "description": "Repo-level tooling shared by sanity-protector-frontend and sanity-protector-backend (git hooks).",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

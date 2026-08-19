@@ -1,5 +1,10 @@
 # Frontend Guidelines
 
+## Framework Version Awareness
+
+- This project's installed Next.js version may include breaking changes — APIs, conventions, and file structure may differ from training data. Before writing Next.js code, read the relevant guide in `sanity-protector-frontend/node_modules/next/dist/docs/` and heed deprecation notices.
+- This mirrors `sanity-protector-frontend/AGENTS.md`, which `next dev` regenerates automatically — don't fight it by deleting the file; treat it as a live pointer back to this rule.
+
 ## Architecture
 
 ### Limitations
@@ -70,3 +75,4 @@
 ## Configuration
 
 - Define environment variables in `next.config`.
+- Dev server runs on port 3000.

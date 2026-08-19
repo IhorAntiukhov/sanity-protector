@@ -14,15 +14,19 @@ Apply these regardless of whether the work is frontend or backend.
 
 ## Documentation
 
-- Use Architecture Decision Records (ADRs) to document decisions that span modules.
+- Use Architecture Decision Records (ADRs) to document decisions that span modules. Focus each ADR on cross-module dependencies and on what isn't obvious from reading the code — skip anything a reader could derive from the diff itself.
 - Document large additions or features — anything significant enough to go through planning mode — in `docs/plans/`, one file per feature (`docs/plans/<feature-name>.md`).
 
 ## Configuration
 
 - Provide a `.env.example` file.
+- Use canonical/common template (or default) values for placeholder credentials — e.g. `postgres`/`postgres` for a database user/password — instead of arbitrary placeholders.
 
 ## Security
 
-- Apply standardized XSS protection.
+- Use `helmet` on the backend for baseline HTTP security headers — covers XSS protection and disabling `X-Powered-By` out of the box.
 - Configure CORS.
-- Disable the `X-Powered-By` header.
+
+## Testing
+
+- Always run the pre-commit tests for both the backend and the frontend before committing.

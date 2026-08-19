@@ -1,0 +1,12 @@
+node_modules
+dist
+generated
+coverage
+.env
+.env.*
+!.env.example
+.git
+.claude
+.agents
+.windsurf
+*.log
