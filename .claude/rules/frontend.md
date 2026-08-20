@@ -55,6 +55,52 @@
 - Underline text links.
 - Implement one reusable pattern for optimistic updates.
 
+## Landing Pages
+
+### Above the fold
+
+- Lead with a benefit-driven headline.
+- Follow with a sub-headline stating who you are and what you do.
+- Show social proof: reviews, testimonials, feature publications.
+- Include a clear call-to-action button.
+- Reduce fear, uncertainty, and doubt: free trials, return policies.
+
+### Emotional appeal
+
+- People buy with emotion, not logic — favor powerful messaging over dry feature lists.
+
+### Structure over length
+
+- Don't hide the elements that need to be seen (e.g. behind dropdowns).
+- Match border radius across buttons and images.
+- Give buttons that lead to the same destination the same color.
+- Prefer a bento grid over stacked card rows.
+
+### Scannability
+
+- Use sub-headings, bullet points, and bold text so the page can be scanned, not read.
+
+### Credible social proof
+
+- Quote an actual snippet from the publication, not a paraphrase.
+- Use real examples and images of people who used the product.
+- Cite the source of every review.
+
+### Visual hierarchy
+
+- Vary text sizes to establish hierarchy.
+- Less is more; favor simplicity over creativity.
+- Balance button placement in the header.
+- Outline the most important button(s).
+- Break up purely vertical/horizontal layout lines — a slight diagonal, where appropriate, reads as less rigid.
+
+### Interactivity
+
+- Show actual dashboards, not mockups, where possible.
+- Use split views.
+- Reveal buttons only when they're needed.
+- Use auto-expandable navigation headers.
+
 ## SEO
 
 - Use semantic HTML5 tags where possible.

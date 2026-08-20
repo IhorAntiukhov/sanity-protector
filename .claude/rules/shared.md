@@ -16,6 +16,7 @@ Apply these regardless of whether the work is frontend or backend.
 
 - Use Architecture Decision Records (ADRs) to document decisions that span modules. Focus each ADR on cross-module dependencies and on what isn't obvious from reading the code — skip anything a reader could derive from the diff itself.
 - Document large additions or features — anything significant enough to go through planning mode — in `docs/plans/`, one file per feature (`docs/plans/<feature-name>.md`).
+- Use `docs/ui/` for UI documentation. Each `.md` file covers one screen or group of related screens (e.g. `auth.md`, `feed.md`, `analytics.md`).
 
 ## Configuration
 
